@@ -1,0 +1,70 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  gap: 10px;
+  padding-top: 10px;
+}
+
+.box {
+  width: 134px;
+  height: 94px;
+  background: white;
+  border: 1.5px solid #000000;
+  border-radius: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 12px;
+  text-align: center;
+}
+
+.img {
+  text-align: center;
+  margin: 5px 0;
+}
+
+.img-face {
+  width: 30px;
+  height: auto;
+}
+
+.img-group {
+  width: 15px;
+  height: auto;
+}
+
+.img-headphone {
+  width: 35px;
+  height: auto;
+}
+
+.text {
+  font-size: 10px;
+  text-align: center;
+}
+
+.status {
+  font-size: 11px;
+  text-align: center;
+}
+
+.top {
+  position: relative;
+}
+
+.power {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 8px;
+  text-align: center;
+}
